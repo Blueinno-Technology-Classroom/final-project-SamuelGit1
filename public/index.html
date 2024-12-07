@@ -5,7 +5,7 @@
     <title>My Final Project~</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="font-inter bg-[#141619]">
     <div class="flex flex-row items-center justify-between px-16 py-6">
       <img src="imgs/logo.png" class="size-fit" />
       <div class="flex flex-row space-x-8">
@@ -42,7 +42,7 @@
 
     <div class="h-1/3"></div>
 
-    <div class="gap-16 text-center">
+    <div class="space-y-6 text-center">
       <div class="text-[56px]/[78px] font-medium">About Gravity Team</div>
       <div class="text-[20px]/[30px]">
         <p>At Gravity Team, we are on the mission to balance the supply</p>
@@ -188,19 +188,65 @@
     <div class="flex h-full w-full items-center justify-center">
       <div class="relative h-5/6 w-3/4">
         <img class="absolute -left-20 top-11 w-52" src="imgs/image3.png" />
-        <div class="absolute bottom-32 left-5 text-[60px]/[78px] font-medium">
+        <div class="absolute bottom-20 left-5 text-[60px]/[78px] font-medium">
           <p>Our Partners</p>
           <p>& Friends</p>
         </div>
-        <div class="grifd absolute right-0 grid-cols-2 gap-4">
-          <div><img src="imgs/bithumb.png" /></div>
-          <div><img src="imgs/bitbank.png" /></div>
-          <div><img src="imgs/binance.png" /></div>
-          <div><img src="imgs/bitstamp.png" /></div>
-          <div><img src="imgs/coinbase.png" /></div>
-          <div><img src="imgs/bitfinex.png" /></div>
+        <div class="absolute right-0 grid grid-cols-2 gap-4 odd:bottom-24">
+          <div class="logo-grid-item">
+            <img class="size-20" src="imgs/bithumb.png" />
+            <span class="text-[11px]/[22px] text-[#999999]">BITHUMB</span>
+          </div>
+          <div class="logo-grid-item">
+            <img class="size-20" src="imgs/bitstamp.png" />
+            <span class="text-[11px]/[22px] text-[#999999]">BITSTAMP</span>
+          </div>
+          <div class="logo-grid-item">
+            <img class="size-20" src="imgs/bitbank.png" />
+            <span class="text-[11px]/[22px] text-[#999999]">BITBANK</span>
+          </div>
+          <div class="logo-grid-item">
+            <img class="size-20" src="imgs/coinbase.png" />
+            <span class="text-[11px]/[22px] text-[#999999]">COINBASE</span>
+          </div>
+          <div class="logo-grid-item">
+            <img class="size-20" src="imgs/binance.png" />
+            <span class="text-[11px]/[22px] text-[#999999]">BINANCE</span>
+          </div>
+          <div class="logo-grid-item">
+            <img class="size-20" src="imgs/bitfinex.png" />
+            <span class="text-[11px]/[22px] text-[#999999]">BITFINEX</span>
+          </div>
         </div>
       </div>
     </div>
+    <div class="space-y-10 text-center">
+      <div class="text-[56px]/[78px]">
+        <p>Contact Us</p>
+      </div>
+      <div class="text-[18px]/[30px]">
+        <p>
+          We are always open to discuss new value-adding partnerships. Do reach
+        </p>
+        <p>
+          out if you are an exchange or a project looking for liquidity; an
+          algorithmic
+        </p>
+        <p>
+          trader or a software developer looking to improve the markets with us
+          or
+        </p>
+        <p>just have a great idea you can’t wait to share with us!</p>
+      </div>
+      <div>
+        <button
+          class="btn h-[58px] w-[191.5px] bg-gradient-to-br from-[#665DCD] from-0% via-[#5FA4E6]
+            via-45% to-[#D2AB67] to-100% text-lg font-medium"
+        >
+          GET IN TOUCH
+        </button>
+      </div>
+    </div>
+    <div class="h-1/3 w-full"></div>
   </body>
 </html>
